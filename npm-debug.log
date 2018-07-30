@@ -1,0 +1,1362 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData del
+20 silly mapToRegistry name del
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'del',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'del',
+23 silly mapToRegistry   name: 'del',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/del
+25 silly fetchNamedPackageData glob
+26 silly mapToRegistry name glob
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'glob',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'glob',
+29 silly mapToRegistry   name: 'glob',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/glob
+31 silly fetchNamedPackageData gulp
+32 silly mapToRegistry name gulp
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'gulp',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'gulp',
+35 silly mapToRegistry   name: 'gulp',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/gulp
+37 silly fetchNamedPackageData gulp-crisper
+38 silly mapToRegistry name gulp-crisper
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'gulp-crisper',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'gulp-crisper',
+41 silly mapToRegistry   name: 'gulp-crisper',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/gulp-crisper
+43 silly fetchNamedPackageData gulp-if
+44 silly mapToRegistry name gulp-if
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'gulp-if',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'gulp-if',
+47 silly mapToRegistry   name: 'gulp-if',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-if
+49 silly fetchNamedPackageData gulp-shell
+50 silly mapToRegistry name gulp-shell
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'gulp-shell',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'gulp-shell',
+53 silly mapToRegistry   name: 'gulp-shell',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/gulp-shell
+55 silly fetchNamedPackageData gulp-uglify
+56 silly mapToRegistry name gulp-uglify
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'gulp-uglify',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'gulp-uglify',
+59 silly mapToRegistry   name: 'gulp-uglify',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+61 silly fetchNamedPackageData gulp-useref
+62 silly mapToRegistry name gulp-useref
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'gulp-useref',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'gulp-useref',
+65 silly mapToRegistry   name: 'gulp-useref',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/gulp-useref
+67 silly fetchNamedPackageData gulp-vulcanize
+68 silly mapToRegistry name gulp-vulcanize
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'gulp-vulcanize',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'gulp-vulcanize',
+71 silly mapToRegistry   name: 'gulp-vulcanize',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/gulp-vulcanize
+73 silly fetchNamedPackageData http2-push-manifest
+74 silly mapToRegistry name http2-push-manifest
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'http2-push-manifest',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'http2-push-manifest',
+77 silly mapToRegistry   name: 'http2-push-manifest',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/http2-push-manifest
+79 silly fetchNamedPackageData merge-stream
+80 silly mapToRegistry name merge-stream
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'merge-stream',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'merge-stream',
+83 silly mapToRegistry   name: 'merge-stream',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/merge-stream
+85 silly fetchOtherPackageData web-component-shards@git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir
+86 silly cache add args [ 'web-component-shards@git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir',
+86 silly cache add   null ]
+87 verbose cache add spec web-component-shards@git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'web-component-shards@git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add   scope: null,
+88 silly cache add   escapedName: 'web-component-shards',
+88 silly cache add   name: 'web-component-shards',
+88 silly cache add   rawSpec: 'git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add   spec: 'git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add   type: 'hosted',
+88 silly cache add   hosted:
+88 silly cache add    { type: 'github',
+88 silly cache add      ssh: 'git@github.com:PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add      sshUrl: 'git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add      httpsUrl: 'git+https://github.com/PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add      gitUrl: 'git://github.com/PolymerLabs/web-component-shards.git#workDir',
+88 silly cache add      shortcut: 'github:PolymerLabs/web-component-shards#workDir',
+88 silly cache add      directUrl: 'https://raw.githubusercontent.com/PolymerLabs/web-component-shards/workDir/package.json' } }
+89 verbose addRemoteGit caching git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir
+90 verbose addRemoteGit git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir is a repository hosted by github
+91 silly tryClone cloning git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir via git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir
+92 verbose tryClone git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1 not in flight; caching
+93 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+94 verbose request uri https://registry.npmjs.org/del
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 19:36:55
+97 verbose request id 9ffe833e6fb45b56
+98 verbose etag W/"a21af77f8615b90fc865e029624c6108"
+99 verbose lastModified Sat, 26 May 2018 05:47:30 GMT
+100 http request GET https://registry.npmjs.org/del
+101 verbose request uri https://registry.npmjs.org/gulp
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 19:36:55
+104 verbose etag W/"9e67c97b64d2e3851e493f442a67945e"
+105 verbose lastModified Thu, 12 Jul 2018 19:35:54 GMT
+106 http request GET https://registry.npmjs.org/gulp
+107 verbose request uri https://registry.npmjs.org/gulp-crisper
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 19:36:55
+110 verbose etag W/"b7501f04c3a5e914e78def932106e8ed"
+111 verbose lastModified Sun, 27 May 2018 03:10:40 GMT
+112 http request GET https://registry.npmjs.org/gulp-crisper
+113 verbose request uri https://registry.npmjs.org/glob
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 19:36:55
+116 verbose etag W/"580c1092d5d71a5c0538143cbdfff62d"
+117 verbose lastModified Sun, 27 May 2018 02:29:14 GMT
+118 http request GET https://registry.npmjs.org/glob
+119 verbose request uri https://registry.npmjs.org/gulp-if
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 19:36:55
+122 verbose etag W/"50d2562fbd045a4eb379c12bf2d479da"
+123 verbose lastModified Tue, 19 Jun 2018 00:36:52 GMT
+124 http request GET https://registry.npmjs.org/gulp-if
+125 verbose request uri https://registry.npmjs.org/gulp-uglify
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 19:36:55
+128 verbose etag W/"ad78edfe59eb81c75d7df969b53ffa3a"
+129 verbose lastModified Tue, 24 Jul 2018 21:55:17 GMT
+130 http request GET https://registry.npmjs.org/gulp-uglify
+131 verbose request uri https://registry.npmjs.org/gulp-vulcanize
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 19:36:55
+134 verbose etag W/"50eb69112f447e7520aa51f5fc2f2aa7"
+135 verbose lastModified Sun, 27 May 2018 03:21:33 GMT
+136 http request GET https://registry.npmjs.org/gulp-vulcanize
+137 verbose request uri https://registry.npmjs.org/gulp-useref
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 19:36:55
+140 verbose etag W/"eaf7db31ee855fe8387fb412820676b9"
+141 verbose lastModified Sat, 26 May 2018 11:13:39 GMT
+142 http request GET https://registry.npmjs.org/gulp-useref
+143 verbose request uri https://registry.npmjs.org/gulp-shell
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 19:36:55
+146 verbose etag W/"787c48f0c336289fb98f3847aa341812"
+147 verbose lastModified Sun, 27 May 2018 03:19:06 GMT
+148 http request GET https://registry.npmjs.org/gulp-shell
+149 verbose request uri https://registry.npmjs.org/http2-push-manifest
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 19:36:55
+152 verbose etag W/"84b263f3a8e352a72f4f4dbca0877854"
+153 verbose lastModified Sun, 27 May 2018 04:04:46 GMT
+154 http request GET https://registry.npmjs.org/http2-push-manifest
+155 verbose request uri https://registry.npmjs.org/merge-stream
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 19:36:55
+158 verbose etag W/"63dd3ddd847d80e75b474a3d1519bc39"
+159 verbose lastModified Sat, 23 Jun 2018 13:11:55 GMT
+160 http request GET https://registry.npmjs.org/merge-stream
+161 info git [ 'config', '--get', 'remote.origin.url' ]
+162 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+162 warn addRemoteGit
+162 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:198:12)
+162 warn addRemoteGit     at emitTwo (events.js:106:13)
+162 warn addRemoteGit     at ChildProcess.emit (events.js:191:7)
+162 warn addRemoteGit     at maybeClose (internal/child_process.js:920:16)
+162 warn addRemoteGit     at Socket.<anonymous> (internal/child_process.js:351:11)
+162 warn addRemoteGit     at emitOne (events.js:96:13)
+162 warn addRemoteGit     at Socket.emit (events.js:188:7)
+162 warn addRemoteGit     at Pipe._handle.close [as _onclose] (net.js:497:12)
+162 warn addRemoteGit  git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir resetting remote C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1 because of error: { Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+162 warn addRemoteGit
+162 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:198:12)
+162 warn addRemoteGit     at emitTwo (events.js:106:13)
+162 warn addRemoteGit     at ChildProcess.emit (events.js:191:7)
+162 warn addRemoteGit     at maybeClose (internal/child_process.js:920:16)
+162 warn addRemoteGit     at Socket.<anonymous> (internal/child_process.js:351:11)
+162 warn addRemoteGit     at emitOne (events.js:96:13)
+162 warn addRemoteGit     at Socket.emit (events.js:188:7)
+162 warn addRemoteGit     at Pipe._handle.close [as _onclose] (net.js:497:12)
+162 warn addRemoteGit   killed: false,
+162 warn addRemoteGit   code: 1,
+162 warn addRemoteGit   signal: null,
+162 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+163 info resetRemote resetting C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1 for git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir
+164 silly gentlyRm C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1 is being purged
+165 verbose gentlyRm don't care about contents; nuking C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1
+166 http 304 https://registry.npmjs.org/glob
+167 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+167 verbose headers   connection: 'keep-alive',
+167 verbose headers   'set-cookie': [ '__cfduid=db32daa62ad7e76b34b9a61166d915e1a1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+167 verbose headers   'cache-control': 'max-age=300',
+167 verbose headers   'cf-cache-status': 'HIT',
+167 verbose headers   'cf-ray': '44000c4cfeea86a3-ARN',
+167 verbose headers   etag: '"580c1092d5d71a5c0538143cbdfff62d"',
+167 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+167 verbose headers   'last-modified': 'Sun, 27 May 2018 02:29:14 GMT',
+167 verbose headers   vary: 'accept-encoding, accept',
+167 verbose headers   server: 'cloudflare' }
+168 silly get cb [ 304,
+168 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+168 silly get     connection: 'keep-alive',
+168 silly get     'set-cookie': [ '__cfduid=db32daa62ad7e76b34b9a61166d915e1a1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+168 silly get     'cache-control': 'max-age=300',
+168 silly get     'cf-cache-status': 'HIT',
+168 silly get     'cf-ray': '44000c4cfeea86a3-ARN',
+168 silly get     etag: '"580c1092d5d71a5c0538143cbdfff62d"',
+168 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+168 silly get     'last-modified': 'Sun, 27 May 2018 02:29:14 GMT',
+168 silly get     vary: 'accept-encoding, accept',
+168 silly get     server: 'cloudflare' } ]
+169 verbose etag https://registry.npmjs.org/glob from cache
+170 verbose get saving glob to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\glob\.cache.json
+171 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+172 http 304 https://registry.npmjs.org/del
+173 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'set-cookie': [ '__cfduid=d2f6cdb7bd8e717878bcb179bb82b75f41532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   'cf-cache-status': 'HIT',
+173 verbose headers   'cf-ray': '44000c4cfbaf86c1-ARN',
+173 verbose headers   etag: '"a21af77f8615b90fc865e029624c6108"',
+173 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+173 verbose headers   'last-modified': 'Sat, 26 May 2018 05:47:30 GMT',
+173 verbose headers   vary: 'accept-encoding, accept',
+173 verbose headers   server: 'cloudflare' }
+174 silly get cb [ 304,
+174 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+174 silly get     connection: 'keep-alive',
+174 silly get     'set-cookie': [ '__cfduid=d2f6cdb7bd8e717878bcb179bb82b75f41532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     'cf-cache-status': 'HIT',
+174 silly get     'cf-ray': '44000c4cfbaf86c1-ARN',
+174 silly get     etag: '"a21af77f8615b90fc865e029624c6108"',
+174 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+174 silly get     'last-modified': 'Sat, 26 May 2018 05:47:30 GMT',
+174 silly get     vary: 'accept-encoding, accept',
+174 silly get     server: 'cloudflare' } ]
+175 verbose etag https://registry.npmjs.org/del from cache
+176 verbose get saving del to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\del\.cache.json
+177 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+178 http 304 https://registry.npmjs.org/gulp-if
+179 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+179 verbose headers   connection: 'keep-alive',
+179 verbose headers   'set-cookie': [ '__cfduid=d5615be73f9dcc63c7c02c201320b6c561532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+179 verbose headers   'cache-control': 'max-age=300',
+179 verbose headers   'cf-cache-status': 'HIT',
+179 verbose headers   'cf-ray': '44000c4cffc98697-ARN',
+179 verbose headers   etag: '"50d2562fbd045a4eb379c12bf2d479da"',
+179 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+179 verbose headers   'last-modified': 'Tue, 19 Jun 2018 00:36:52 GMT',
+179 verbose headers   vary: 'accept-encoding, accept',
+179 verbose headers   server: 'cloudflare' }
+180 silly get cb [ 304,
+180 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+180 silly get     connection: 'keep-alive',
+180 silly get     'set-cookie': [ '__cfduid=d5615be73f9dcc63c7c02c201320b6c561532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+180 silly get     'cache-control': 'max-age=300',
+180 silly get     'cf-cache-status': 'HIT',
+180 silly get     'cf-ray': '44000c4cffc98697-ARN',
+180 silly get     etag: '"50d2562fbd045a4eb379c12bf2d479da"',
+180 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+180 silly get     'last-modified': 'Tue, 19 Jun 2018 00:36:52 GMT',
+180 silly get     vary: 'accept-encoding, accept',
+180 silly get     server: 'cloudflare' } ]
+181 verbose etag https://registry.npmjs.org/gulp-if from cache
+182 verbose get saving gulp-if to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-if\.cache.json
+183 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+184 silly vacuum-fs purging C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1
+185 http 304 https://registry.npmjs.org/gulp-crisper
+186 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+186 verbose headers   connection: 'keep-alive',
+186 verbose headers   'set-cookie': [ '__cfduid=d374faa2c64bc3a116eebb6c45231c8ed1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+186 verbose headers   'cache-control': 'max-age=300',
+186 verbose headers   'cf-cache-status': 'HIT',
+186 verbose headers   'cf-ray': '44000c4d185986a9-ARN',
+186 verbose headers   etag: '"b7501f04c3a5e914e78def932106e8ed"',
+186 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+186 verbose headers   'last-modified': 'Sun, 27 May 2018 03:10:40 GMT',
+186 verbose headers   vary: 'accept-encoding, accept',
+186 verbose headers   server: 'cloudflare' }
+187 silly get cb [ 304,
+187 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+187 silly get     connection: 'keep-alive',
+187 silly get     'set-cookie': [ '__cfduid=d374faa2c64bc3a116eebb6c45231c8ed1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+187 silly get     'cache-control': 'max-age=300',
+187 silly get     'cf-cache-status': 'HIT',
+187 silly get     'cf-ray': '44000c4d185986a9-ARN',
+187 silly get     etag: '"b7501f04c3a5e914e78def932106e8ed"',
+187 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+187 silly get     'last-modified': 'Sun, 27 May 2018 03:10:40 GMT',
+187 silly get     vary: 'accept-encoding, accept',
+187 silly get     server: 'cloudflare' } ]
+188 verbose etag https://registry.npmjs.org/gulp-crisper from cache
+189 verbose get saving gulp-crisper to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-crisper\.cache.json
+190 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+191 http 304 https://registry.npmjs.org/gulp
+192 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+192 verbose headers   connection: 'keep-alive',
+192 verbose headers   'set-cookie': [ '__cfduid=d374faa2c64bc3a116eebb6c45231c8ed1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+192 verbose headers   'cache-control': 'max-age=300',
+192 verbose headers   'cf-cache-status': 'HIT',
+192 verbose headers   'cf-ray': '44000c4d185886a9-ARN',
+192 verbose headers   etag: '"9e67c97b64d2e3851e493f442a67945e"',
+192 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+192 verbose headers   'last-modified': 'Thu, 12 Jul 2018 19:35:54 GMT',
+192 verbose headers   vary: 'accept-encoding, accept',
+192 verbose headers   server: 'cloudflare' }
+193 silly get cb [ 304,
+193 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+193 silly get     connection: 'keep-alive',
+193 silly get     'set-cookie': [ '__cfduid=d374faa2c64bc3a116eebb6c45231c8ed1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+193 silly get     'cache-control': 'max-age=300',
+193 silly get     'cf-cache-status': 'HIT',
+193 silly get     'cf-ray': '44000c4d185886a9-ARN',
+193 silly get     etag: '"9e67c97b64d2e3851e493f442a67945e"',
+193 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+193 silly get     'last-modified': 'Thu, 12 Jul 2018 19:35:54 GMT',
+193 silly get     vary: 'accept-encoding, accept',
+193 silly get     server: 'cloudflare' } ]
+194 verbose etag https://registry.npmjs.org/gulp from cache
+195 verbose get saving gulp to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+196 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 silly vacuum-fs quitting because other entries in C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes
+198 http 304 https://registry.npmjs.org/http2-push-manifest
+199 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+199 verbose headers   connection: 'keep-alive',
+199 verbose headers   'set-cookie': [ '__cfduid=d343363345b14ca00fe8e50cc4fc331cc1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+199 verbose headers   'cache-control': 'max-age=300',
+199 verbose headers   'cf-cache-status': 'HIT',
+199 verbose headers   'cf-ray': '44000c4d4a3486d3-ARN',
+199 verbose headers   etag: '"84b263f3a8e352a72f4f4dbca0877854"',
+199 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+199 verbose headers   'last-modified': 'Sun, 27 May 2018 04:04:46 GMT',
+199 verbose headers   vary: 'accept-encoding, accept',
+199 verbose headers   server: 'cloudflare' }
+200 silly get cb [ 304,
+200 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+200 silly get     connection: 'keep-alive',
+200 silly get     'set-cookie': [ '__cfduid=d343363345b14ca00fe8e50cc4fc331cc1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+200 silly get     'cache-control': 'max-age=300',
+200 silly get     'cf-cache-status': 'HIT',
+200 silly get     'cf-ray': '44000c4d4a3486d3-ARN',
+200 silly get     etag: '"84b263f3a8e352a72f4f4dbca0877854"',
+200 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+200 silly get     'last-modified': 'Sun, 27 May 2018 04:04:46 GMT',
+200 silly get     vary: 'accept-encoding, accept',
+200 silly get     server: 'cloudflare' } ]
+201 verbose etag https://registry.npmjs.org/http2-push-manifest from cache
+202 verbose get saving http2-push-manifest to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\http2-push-manifest\.cache.json
+203 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+204 http 304 https://registry.npmjs.org/gulp-vulcanize
+205 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+205 verbose headers   connection: 'keep-alive',
+205 verbose headers   'set-cookie': [ '__cfduid=d618397b7aeae20d2442958f6bf44d5e81532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+205 verbose headers   'cache-control': 'max-age=300',
+205 verbose headers   'cf-cache-status': 'HIT',
+205 verbose headers   'cf-ray': '44000c4d4b20868b-ARN',
+205 verbose headers   etag: '"50eb69112f447e7520aa51f5fc2f2aa7"',
+205 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+205 verbose headers   'last-modified': 'Sun, 27 May 2018 03:21:33 GMT',
+205 verbose headers   vary: 'accept-encoding, accept',
+205 verbose headers   server: 'cloudflare' }
+206 silly get cb [ 304,
+206 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+206 silly get     connection: 'keep-alive',
+206 silly get     'set-cookie': [ '__cfduid=d618397b7aeae20d2442958f6bf44d5e81532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+206 silly get     'cache-control': 'max-age=300',
+206 silly get     'cf-cache-status': 'HIT',
+206 silly get     'cf-ray': '44000c4d4b20868b-ARN',
+206 silly get     etag: '"50eb69112f447e7520aa51f5fc2f2aa7"',
+206 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+206 silly get     'last-modified': 'Sun, 27 May 2018 03:21:33 GMT',
+206 silly get     vary: 'accept-encoding, accept',
+206 silly get     server: 'cloudflare' } ]
+207 verbose etag https://registry.npmjs.org/gulp-vulcanize from cache
+208 verbose get saving gulp-vulcanize to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-vulcanize\.cache.json
+209 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+210 http 304 https://registry.npmjs.org/gulp-uglify
+211 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+211 verbose headers   connection: 'keep-alive',
+211 verbose headers   'set-cookie': [ '__cfduid=d2efaf83e3039f295eea297f5297d9a8b1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+211 verbose headers   'cache-control': 'max-age=300',
+211 verbose headers   'cf-cache-status': 'HIT',
+211 verbose headers   'cf-ray': '44000c4d4f718661-ARN',
+211 verbose headers   etag: '"ad78edfe59eb81c75d7df969b53ffa3a"',
+211 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+211 verbose headers   'last-modified': 'Tue, 24 Jul 2018 21:55:17 GMT',
+211 verbose headers   vary: 'accept-encoding, accept',
+211 verbose headers   server: 'cloudflare' }
+212 silly get cb [ 304,
+212 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+212 silly get     connection: 'keep-alive',
+212 silly get     'set-cookie': [ '__cfduid=d2efaf83e3039f295eea297f5297d9a8b1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+212 silly get     'cache-control': 'max-age=300',
+212 silly get     'cf-cache-status': 'HIT',
+212 silly get     'cf-ray': '44000c4d4f718661-ARN',
+212 silly get     etag: '"ad78edfe59eb81c75d7df969b53ffa3a"',
+212 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+212 silly get     'last-modified': 'Tue, 24 Jul 2018 21:55:17 GMT',
+212 silly get     vary: 'accept-encoding, accept',
+212 silly get     server: 'cloudflare' } ]
+213 verbose etag https://registry.npmjs.org/gulp-uglify from cache
+214 verbose get saving gulp-uglify to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-uglify\.cache.json
+215 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+216 http 304 https://registry.npmjs.org/gulp-shell
+217 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'set-cookie': [ '__cfduid=db258a14c6ab4c59fcd8ac5ce82b68a921532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   'cf-cache-status': 'HIT',
+217 verbose headers   'cf-ray': '44000c4d49ae8655-ARN',
+217 verbose headers   etag: '"787c48f0c336289fb98f3847aa341812"',
+217 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+217 verbose headers   'last-modified': 'Sun, 27 May 2018 03:19:06 GMT',
+217 verbose headers   vary: 'accept-encoding, accept',
+217 verbose headers   server: 'cloudflare' }
+218 silly get cb [ 304,
+218 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+218 silly get     connection: 'keep-alive',
+218 silly get     'set-cookie': [ '__cfduid=db258a14c6ab4c59fcd8ac5ce82b68a921532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     'cf-cache-status': 'HIT',
+218 silly get     'cf-ray': '44000c4d49ae8655-ARN',
+218 silly get     etag: '"787c48f0c336289fb98f3847aa341812"',
+218 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+218 silly get     'last-modified': 'Sun, 27 May 2018 03:19:06 GMT',
+218 silly get     vary: 'accept-encoding, accept',
+218 silly get     server: 'cloudflare' } ]
+219 verbose etag https://registry.npmjs.org/gulp-shell from cache
+220 verbose get saving gulp-shell to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-shell\.cache.json
+221 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+222 silly resolveWithNewModule del@2.2.2 checking installable status
+223 silly cache add args [ 'del@^2.0.2', null ]
+224 verbose cache add spec del@^2.0.2
+225 silly cache add parsed spec Result {
+225 silly cache add   raw: 'del@^2.0.2',
+225 silly cache add   scope: null,
+225 silly cache add   escapedName: 'del',
+225 silly cache add   name: 'del',
+225 silly cache add   rawSpec: '^2.0.2',
+225 silly cache add   spec: '>=2.0.2 <3.0.0',
+225 silly cache add   type: 'range' }
+226 silly addNamed del@>=2.0.2 <3.0.0
+227 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for del
+228 silly addNameRange { name: 'del', range: '>=2.0.2 <3.0.0', hasData: false }
+229 silly mapToRegistry name del
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'del',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   escapedName: 'del',
+232 silly mapToRegistry   name: 'del',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri https://registry.npmjs.org/del
+234 verbose addNameRange registry:https://registry.npmjs.org/del not in flight; fetching
+235 silly resolveWithNewModule glob@5.0.15 checking installable status
+236 silly cache add args [ 'glob@^5.0.15', null ]
+237 verbose cache add spec glob@^5.0.15
+238 silly cache add parsed spec Result {
+238 silly cache add   raw: 'glob@^5.0.15',
+238 silly cache add   scope: null,
+238 silly cache add   escapedName: 'glob',
+238 silly cache add   name: 'glob',
+238 silly cache add   rawSpec: '^5.0.15',
+238 silly cache add   spec: '>=5.0.15 <6.0.0',
+238 silly cache add   type: 'range' }
+239 silly addNamed glob@>=5.0.15 <6.0.0
+240 verbose addNamed ">=5.0.15 <6.0.0" is a valid semver range for glob
+241 silly addNameRange { name: 'glob', range: '>=5.0.15 <6.0.0', hasData: false }
+242 silly mapToRegistry name glob
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'glob',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   escapedName: 'glob',
+245 silly mapToRegistry   name: 'glob',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri https://registry.npmjs.org/glob
+247 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+248 silly resolveWithNewModule gulp-if@2.0.2 checking installable status
+249 silly cache add args [ 'gulp-if@^2.0.0', null ]
+250 verbose cache add spec gulp-if@^2.0.0
+251 silly cache add parsed spec Result {
+251 silly cache add   raw: 'gulp-if@^2.0.0',
+251 silly cache add   scope: null,
+251 silly cache add   escapedName: 'gulp-if',
+251 silly cache add   name: 'gulp-if',
+251 silly cache add   rawSpec: '^2.0.0',
+251 silly cache add   spec: '>=2.0.0 <3.0.0',
+251 silly cache add   type: 'range' }
+252 silly addNamed gulp-if@>=2.0.0 <3.0.0
+253 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for gulp-if
+254 silly addNameRange { name: 'gulp-if', range: '>=2.0.0 <3.0.0', hasData: false }
+255 silly mapToRegistry name gulp-if
+256 silly mapToRegistry using default registry
+257 silly mapToRegistry registry https://registry.npmjs.org/
+258 silly mapToRegistry data Result {
+258 silly mapToRegistry   raw: 'gulp-if',
+258 silly mapToRegistry   scope: null,
+258 silly mapToRegistry   escapedName: 'gulp-if',
+258 silly mapToRegistry   name: 'gulp-if',
+258 silly mapToRegistry   rawSpec: '',
+258 silly mapToRegistry   spec: 'latest',
+258 silly mapToRegistry   type: 'tag' }
+259 silly mapToRegistry uri https://registry.npmjs.org/gulp-if
+260 verbose addNameRange registry:https://registry.npmjs.org/gulp-if not in flight; fetching
+261 silly resolveWithNewModule gulp-crisper@0.0.7 checking installable status
+262 silly cache add args [ 'gulp-crisper@0.0.7', null ]
+263 verbose cache add spec gulp-crisper@0.0.7
+264 silly cache add parsed spec Result {
+264 silly cache add   raw: 'gulp-crisper@0.0.7',
+264 silly cache add   scope: null,
+264 silly cache add   escapedName: 'gulp-crisper',
+264 silly cache add   name: 'gulp-crisper',
+264 silly cache add   rawSpec: '0.0.7',
+264 silly cache add   spec: '0.0.7',
+264 silly cache add   type: 'version' }
+265 silly addNamed gulp-crisper@0.0.7
+266 verbose addNamed "0.0.7" is a plain semver version for gulp-crisper
+267 silly mapToRegistry name gulp-crisper
+268 silly mapToRegistry using default registry
+269 silly mapToRegistry registry https://registry.npmjs.org/
+270 silly mapToRegistry data Result {
+270 silly mapToRegistry   raw: 'gulp-crisper',
+270 silly mapToRegistry   scope: null,
+270 silly mapToRegistry   escapedName: 'gulp-crisper',
+270 silly mapToRegistry   name: 'gulp-crisper',
+270 silly mapToRegistry   rawSpec: '',
+270 silly mapToRegistry   spec: 'latest',
+270 silly mapToRegistry   type: 'tag' }
+271 silly mapToRegistry uri https://registry.npmjs.org/gulp-crisper
+272 verbose addNameVersion registry:https://registry.npmjs.org/gulp-crisper not in flight; fetching
+273 silly resolveWithNewModule gulp@3.9.1 checking installable status
+274 silly cache add args [ 'gulp@^3.9.0', null ]
+275 verbose cache add spec gulp@^3.9.0
+276 silly cache add parsed spec Result {
+276 silly cache add   raw: 'gulp@^3.9.0',
+276 silly cache add   scope: null,
+276 silly cache add   escapedName: 'gulp',
+276 silly cache add   name: 'gulp',
+276 silly cache add   rawSpec: '^3.9.0',
+276 silly cache add   spec: '>=3.9.0 <4.0.0',
+276 silly cache add   type: 'range' }
+277 silly addNamed gulp@>=3.9.0 <4.0.0
+278 verbose addNamed ">=3.9.0 <4.0.0" is a valid semver range for gulp
+279 silly addNameRange { name: 'gulp', range: '>=3.9.0 <4.0.0', hasData: false }
+280 silly mapToRegistry name gulp
+281 silly mapToRegistry using default registry
+282 silly mapToRegistry registry https://registry.npmjs.org/
+283 silly mapToRegistry data Result {
+283 silly mapToRegistry   raw: 'gulp',
+283 silly mapToRegistry   scope: null,
+283 silly mapToRegistry   escapedName: 'gulp',
+283 silly mapToRegistry   name: 'gulp',
+283 silly mapToRegistry   rawSpec: '',
+283 silly mapToRegistry   spec: 'latest',
+283 silly mapToRegistry   type: 'tag' }
+284 silly mapToRegistry uri https://registry.npmjs.org/gulp
+285 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+286 http 304 https://registry.npmjs.org/gulp-useref
+287 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+287 verbose headers   connection: 'keep-alive',
+287 verbose headers   'set-cookie': [ '__cfduid=d78cd01e9986735f421db9d805787274f1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+287 verbose headers   'cache-control': 'max-age=300',
+287 verbose headers   'cf-cache-status': 'HIT',
+287 verbose headers   'cf-ray': '44000c4d4efc8667-ARN',
+287 verbose headers   etag: '"eaf7db31ee855fe8387fb412820676b9"',
+287 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+287 verbose headers   'last-modified': 'Sat, 26 May 2018 11:13:39 GMT',
+287 verbose headers   vary: 'accept-encoding, accept',
+287 verbose headers   server: 'cloudflare' }
+288 silly get cb [ 304,
+288 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+288 silly get     connection: 'keep-alive',
+288 silly get     'set-cookie': [ '__cfduid=d78cd01e9986735f421db9d805787274f1532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+288 silly get     'cache-control': 'max-age=300',
+288 silly get     'cf-cache-status': 'HIT',
+288 silly get     'cf-ray': '44000c4d4efc8667-ARN',
+288 silly get     etag: '"eaf7db31ee855fe8387fb412820676b9"',
+288 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+288 silly get     'last-modified': 'Sat, 26 May 2018 11:13:39 GMT',
+288 silly get     vary: 'accept-encoding, accept',
+288 silly get     server: 'cloudflare' } ]
+289 verbose etag https://registry.npmjs.org/gulp-useref from cache
+290 verbose get saving gulp-useref to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-useref\.cache.json
+291 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+292 http 304 https://registry.npmjs.org/merge-stream
+293 verbose headers { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+293 verbose headers   connection: 'keep-alive',
+293 verbose headers   'set-cookie': [ '__cfduid=d33361b1b5456d2f99af3d2eca05166871532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+293 verbose headers   'cache-control': 'max-age=300',
+293 verbose headers   'cf-cache-status': 'HIT',
+293 verbose headers   'cf-ray': '44000c4d4cf1869d-ARN',
+293 verbose headers   etag: '"63dd3ddd847d80e75b474a3d1519bc39"',
+293 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+293 verbose headers   'last-modified': 'Sat, 23 Jun 2018 13:11:55 GMT',
+293 verbose headers   vary: 'accept-encoding, accept',
+293 verbose headers   server: 'cloudflare' }
+294 silly get cb [ 304,
+294 silly get   { date: 'Wed, 25 Jul 2018 16:36:53 GMT',
+294 silly get     connection: 'keep-alive',
+294 silly get     'set-cookie': [ '__cfduid=d33361b1b5456d2f99af3d2eca05166871532536613; expires=Thu, 25-Jul-19 16:36:53 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+294 silly get     'cache-control': 'max-age=300',
+294 silly get     'cf-cache-status': 'HIT',
+294 silly get     'cf-ray': '44000c4d4cf1869d-ARN',
+294 silly get     etag: '"63dd3ddd847d80e75b474a3d1519bc39"',
+294 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+294 silly get     'last-modified': 'Sat, 23 Jun 2018 13:11:55 GMT',
+294 silly get     vary: 'accept-encoding, accept',
+294 silly get     server: 'cloudflare' } ]
+295 verbose etag https://registry.npmjs.org/merge-stream from cache
+296 verbose get saving merge-stream to C:\Users\Z\AppData\Roaming\npm-cache\registry.npmjs.org\merge-stream\.cache.json
+297 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+298 verbose get https://registry.npmjs.org/del not expired, no request
+299 silly addNameRange number 2 { name: 'del', range: '>=2.0.2 <3.0.0', hasData: true }
+300 silly addNameRange versions [ 'del',
+300 silly addNameRange   [ '0.1.0',
+300 silly addNameRange     '0.1.1',
+300 silly addNameRange     '0.1.2',
+300 silly addNameRange     '0.1.3',
+300 silly addNameRange     '1.0.0',
+300 silly addNameRange     '1.1.0',
+300 silly addNameRange     '1.1.1',
+300 silly addNameRange     '1.2.0',
+300 silly addNameRange     '1.2.1',
+300 silly addNameRange     '2.0.0',
+300 silly addNameRange     '2.0.1',
+300 silly addNameRange     '2.0.2',
+300 silly addNameRange     '2.1.0',
+300 silly addNameRange     '2.2.0',
+300 silly addNameRange     '2.2.1',
+300 silly addNameRange     '2.2.2',
+300 silly addNameRange     '3.0.0' ] ]
+301 silly addNamed del@2.2.2
+302 verbose addNamed "2.2.2" is a plain semver version for del
+303 verbose get https://registry.npmjs.org/gulp-if not expired, no request
+304 silly addNameRange number 2 { name: 'gulp-if', range: '>=2.0.0 <3.0.0', hasData: true }
+305 silly addNameRange versions [ 'gulp-if',
+305 silly addNameRange   [ '0.0.3',
+305 silly addNameRange     '0.0.4',
+305 silly addNameRange     '0.0.5',
+305 silly addNameRange     '1.0.0',
+305 silly addNameRange     '1.1.0',
+305 silly addNameRange     '1.2.0',
+305 silly addNameRange     '1.2.1',
+305 silly addNameRange     '1.2.2',
+305 silly addNameRange     '1.2.3',
+305 silly addNameRange     '1.2.4',
+305 silly addNameRange     '1.2.5',
+305 silly addNameRange     '2.0.0',
+305 silly addNameRange     '2.0.1',
+305 silly addNameRange     '2.0.2' ] ]
+306 silly addNamed gulp-if@2.0.2
+307 verbose addNamed "2.0.2" is a plain semver version for gulp-if
+308 verbose get https://registry.npmjs.org/glob not expired, no request
+309 silly addNameRange number 2 { name: 'glob', range: '>=5.0.15 <6.0.0', hasData: true }
+310 silly addNameRange versions [ 'glob',
+310 silly addNameRange   [ '1.1.0',
+310 silly addNameRange     '2.0.9',
+310 silly addNameRange     '2.0.8',
+310 silly addNameRange     '2.0.7',
+310 silly addNameRange     '2.1.0',
+310 silly addNameRange     '3.0.0',
+310 silly addNameRange     '3.0.1',
+310 silly addNameRange     '3.1.0',
+310 silly addNameRange     '3.1.1',
+310 silly addNameRange     '3.1.2',
+310 silly addNameRange     '3.1.3',
+310 silly addNameRange     '3.1.4',
+310 silly addNameRange     '3.1.5',
+310 silly addNameRange     '3.1.6',
+310 silly addNameRange     '3.1.7',
+310 silly addNameRange     '3.1.9',
+310 silly addNameRange     '3.1.10',
+310 silly addNameRange     '3.1.11',
+310 silly addNameRange     '3.1.12',
+310 silly addNameRange     '3.1.13',
+310 silly addNameRange     '3.1.14',
+310 silly addNameRange     '3.1.15',
+310 silly addNameRange     '3.1.16',
+310 silly addNameRange     '3.1.17',
+310 silly addNameRange     '3.1.18',
+310 silly addNameRange     '3.1.19',
+310 silly addNameRange     '3.1.20',
+310 silly addNameRange     '3.1.21',
+310 silly addNameRange     '3.2.0',
+310 silly addNameRange     '3.2.1',
+310 silly addNameRange     '3.2.3',
+310 silly addNameRange     '3.2.4',
+310 silly addNameRange     '3.2.5',
+310 silly addNameRange     '3.2.6',
+310 silly addNameRange     '3.2.7',
+310 silly addNameRange     '3.2.8',
+310 silly addNameRange     '3.2.9',
+310 silly addNameRange     '3.2.10',
+310 silly addNameRange     '3.2.11',
+310 silly addNameRange     '4.0.0',
+310 silly addNameRange     '4.0.1',
+310 silly addNameRange     '4.0.2',
+310 silly addNameRange     '4.0.3',
+310 silly addNameRange     '4.0.4',
+310 silly addNameRange     '4.0.5',
+310 silly addNameRange     '4.0.6',
+310 silly addNameRange     '4.1.2-beta',
+310 silly addNameRange     '4.1.2',
+310 silly addNameRange     '4.1.3',
+310 silly addNameRange     '4.1.4',
+310 silly addNameRange     '4.1.5',
+310 silly addNameRange     '4.1.6',
+310 silly addNameRange     '4.2.0',
+310 silly addNameRange     '4.2.1',
+310 silly addNameRange     '4.2.2',
+310 silly addNameRange     '4.3.0',
+310 silly addNameRange     '4.3.1',
+310 silly addNameRange     '4.3.2',
+310 silly addNameRange     '4.3.3',
+310 silly addNameRange     '4.3.4',
+310 silly addNameRange     '4.3.5',
+310 silly addNameRange     '4.4.0',
+310 silly addNameRange     '4.4.2',
+310 silly addNameRange     '4.5.0',
+310 silly addNameRange     '5.0.0',
+310 silly addNameRange     '4.5.1',
+310 silly addNameRange     '5.0.1',
+310 silly addNameRange     '4.5.2',
+310 silly addNameRange     '5.0.2',
+310 silly addNameRange     '4.5.3',
+310 silly addNameRange     '5.0.3',
+310 silly addNameRange     '5.0.4',
+310 silly addNameRange     '5.0.5',
+310 silly addNameRange     '5.0.6',
+310 silly addNameRange     '5.0.7',
+310 silly addNameRange     '5.0.9',
+310 silly addNameRange     '5.0.10',
+310 silly addNameRange     '5.0.11',
+310 silly addNameRange     '5.0.12',
+310 silly addNameRange     '5.0.13',
+310 silly addNameRange     '5.0.14',
+310 silly addNameRange     '5.0.15',
+310 silly addNameRange     '6.0.1',
+310 silly addNameRange     '6.0.2',
+310 silly addNameRange     '6.0.3',
+310 silly addNameRange     '6.0.4',
+310 silly addNameRange     '7.0.0',
+310 silly addNameRange     '7.0.1',
+310 silly addNameRange     '7.0.3',
+310 silly addNameRange     '7.0.4',
+310 silly addNameRange     '7.0.5',
+310 silly addNameRange     '7.0.6',
+310 silly addNameRange     '7.1.0',
+310 silly addNameRange     '7.1.1',
+310 silly addNameRange     '7.1.2' ] ]
+311 silly addNamed glob@5.0.15
+312 verbose addNamed "5.0.15" is a plain semver version for glob
+313 verbose get https://registry.npmjs.org/gulp-crisper not expired, no request
+314 verbose get https://registry.npmjs.org/gulp not expired, no request
+315 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.0 <4.0.0', hasData: true }
+316 silly addNameRange versions [ 'gulp',
+316 silly addNameRange   [ '0.0.1',
+316 silly addNameRange     '0.0.2',
+316 silly addNameRange     '0.0.3',
+316 silly addNameRange     '0.0.4',
+316 silly addNameRange     '0.0.5',
+316 silly addNameRange     '0.0.7',
+316 silly addNameRange     '0.0.8',
+316 silly addNameRange     '0.0.9',
+316 silly addNameRange     '0.1.0',
+316 silly addNameRange     '0.2.0',
+316 silly addNameRange     '1.0.0',
+316 silly addNameRange     '1.1.0',
+316 silly addNameRange     '1.2.0',
+316 silly addNameRange     '1.2.1',
+316 silly addNameRange     '2.0.0',
+316 silly addNameRange     '2.0.1',
+316 silly addNameRange     '2.1.0',
+316 silly addNameRange     '2.2.0',
+316 silly addNameRange     '2.3.0',
+316 silly addNameRange     '2.4.0',
+316 silly addNameRange     '2.4.1',
+316 silly addNameRange     '2.6.0',
+316 silly addNameRange     '2.6.1',
+316 silly addNameRange     '2.7.0',
+316 silly addNameRange     '3.0.0',
+316 silly addNameRange     '3.1.1',
+316 silly addNameRange     '3.1.2',
+316 silly addNameRange     '3.1.3',
+316 silly addNameRange     '3.1.4',
+316 silly addNameRange     '3.2.0',
+316 silly addNameRange     '3.2.1',
+316 silly addNameRange     '3.2.2',
+316 silly addNameRange     '3.2.3',
+316 silly addNameRange     '3.2.4',
+316 silly addNameRange     '3.2.5',
+316 silly addNameRange     '3.3.0',
+316 silly addNameRange     '3.3.1',
+316 silly addNameRange     '3.3.2',
+316 silly addNameRange     '3.3.4',
+316 silly addNameRange     '3.4.0',
+316 silly addNameRange     '3.5.0',
+316 silly addNameRange     '3.5.1',
+316 silly addNameRange     '3.5.2',
+316 silly addNameRange     '3.5.5',
+316 silly addNameRange     '3.5.6',
+316 silly addNameRange     '3.6.0',
+316 silly addNameRange     '3.6.1',
+316 silly addNameRange     '3.6.2',
+316 silly addNameRange     '3.7.0',
+316 silly addNameRange     '3.8.0',
+316 silly addNameRange     '3.8.1',
+316 silly addNameRange     '3.8.2',
+316 silly addNameRange     '3.8.3',
+316 silly addNameRange     '3.8.4',
+316 silly addNameRange     '3.8.5',
+316 silly addNameRange     '3.8.6',
+316 silly addNameRange     '3.8.7',
+316 silly addNameRange     '3.8.8',
+316 silly addNameRange     '3.8.9',
+316 silly addNameRange     '3.8.10',
+316 silly addNameRange     '3.8.11',
+316 silly addNameRange     '3.9.0',
+316 silly addNameRange     '3.9.1',
+316 silly addNameRange     '4.0.0' ] ]
+317 silly addNamed gulp@3.9.1
+318 verbose addNamed "3.9.1" is a plain semver version for gulp
+319 silly resolveWithNewModule http2-push-manifest@0.0.2 checking installable status
+320 silly cache add args [ 'http2-push-manifest@0.0.2', null ]
+321 verbose cache add spec http2-push-manifest@0.0.2
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'http2-push-manifest@0.0.2',
+322 silly cache add   scope: null,
+322 silly cache add   escapedName: 'http2-push-manifest',
+322 silly cache add   name: 'http2-push-manifest',
+322 silly cache add   rawSpec: '0.0.2',
+322 silly cache add   spec: '0.0.2',
+322 silly cache add   type: 'version' }
+323 silly addNamed http2-push-manifest@0.0.2
+324 verbose addNamed "0.0.2" is a plain semver version for http2-push-manifest
+325 silly mapToRegistry name http2-push-manifest
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry data Result {
+328 silly mapToRegistry   raw: 'http2-push-manifest',
+328 silly mapToRegistry   scope: null,
+328 silly mapToRegistry   escapedName: 'http2-push-manifest',
+328 silly mapToRegistry   name: 'http2-push-manifest',
+328 silly mapToRegistry   rawSpec: '',
+328 silly mapToRegistry   spec: 'latest',
+328 silly mapToRegistry   type: 'tag' }
+329 silly mapToRegistry uri https://registry.npmjs.org/http2-push-manifest
+330 verbose addNameVersion registry:https://registry.npmjs.org/http2-push-manifest not in flight; fetching
+331 silly resolveWithNewModule gulp-vulcanize@6.1.0 checking installable status
+332 silly cache add args [ 'gulp-vulcanize@^6.0.1', null ]
+333 verbose cache add spec gulp-vulcanize@^6.0.1
+334 silly cache add parsed spec Result {
+334 silly cache add   raw: 'gulp-vulcanize@^6.0.1',
+334 silly cache add   scope: null,
+334 silly cache add   escapedName: 'gulp-vulcanize',
+334 silly cache add   name: 'gulp-vulcanize',
+334 silly cache add   rawSpec: '^6.0.1',
+334 silly cache add   spec: '>=6.0.1 <7.0.0',
+334 silly cache add   type: 'range' }
+335 silly addNamed gulp-vulcanize@>=6.0.1 <7.0.0
+336 verbose addNamed ">=6.0.1 <7.0.0" is a valid semver range for gulp-vulcanize
+337 silly addNameRange { name: 'gulp-vulcanize',
+337 silly addNameRange   range: '>=6.0.1 <7.0.0',
+337 silly addNameRange   hasData: false }
+338 silly mapToRegistry name gulp-vulcanize
+339 silly mapToRegistry using default registry
+340 silly mapToRegistry registry https://registry.npmjs.org/
+341 silly mapToRegistry data Result {
+341 silly mapToRegistry   raw: 'gulp-vulcanize',
+341 silly mapToRegistry   scope: null,
+341 silly mapToRegistry   escapedName: 'gulp-vulcanize',
+341 silly mapToRegistry   name: 'gulp-vulcanize',
+341 silly mapToRegistry   rawSpec: '',
+341 silly mapToRegistry   spec: 'latest',
+341 silly mapToRegistry   type: 'tag' }
+342 silly mapToRegistry uri https://registry.npmjs.org/gulp-vulcanize
+343 verbose addNameRange registry:https://registry.npmjs.org/gulp-vulcanize not in flight; fetching
+344 silly resolveWithNewModule gulp-uglify@1.5.4 checking installable status
+345 silly cache add args [ 'gulp-uglify@^1.4.2', null ]
+346 verbose cache add spec gulp-uglify@^1.4.2
+347 silly cache add parsed spec Result {
+347 silly cache add   raw: 'gulp-uglify@^1.4.2',
+347 silly cache add   scope: null,
+347 silly cache add   escapedName: 'gulp-uglify',
+347 silly cache add   name: 'gulp-uglify',
+347 silly cache add   rawSpec: '^1.4.2',
+347 silly cache add   spec: '>=1.4.2 <2.0.0',
+347 silly cache add   type: 'range' }
+348 silly addNamed gulp-uglify@>=1.4.2 <2.0.0
+349 verbose addNamed ">=1.4.2 <2.0.0" is a valid semver range for gulp-uglify
+350 silly addNameRange { name: 'gulp-uglify', range: '>=1.4.2 <2.0.0', hasData: false }
+351 silly mapToRegistry name gulp-uglify
+352 silly mapToRegistry using default registry
+353 silly mapToRegistry registry https://registry.npmjs.org/
+354 silly mapToRegistry data Result {
+354 silly mapToRegistry   raw: 'gulp-uglify',
+354 silly mapToRegistry   scope: null,
+354 silly mapToRegistry   escapedName: 'gulp-uglify',
+354 silly mapToRegistry   name: 'gulp-uglify',
+354 silly mapToRegistry   rawSpec: '',
+354 silly mapToRegistry   spec: 'latest',
+354 silly mapToRegistry   type: 'tag' }
+355 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+356 verbose addNameRange registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+357 silly resolveWithNewModule gulp-shell@0.5.2 checking installable status
+358 silly cache add args [ 'gulp-shell@^0.5.1', null ]
+359 verbose cache add spec gulp-shell@^0.5.1
+360 silly cache add parsed spec Result {
+360 silly cache add   raw: 'gulp-shell@^0.5.1',
+360 silly cache add   scope: null,
+360 silly cache add   escapedName: 'gulp-shell',
+360 silly cache add   name: 'gulp-shell',
+360 silly cache add   rawSpec: '^0.5.1',
+360 silly cache add   spec: '>=0.5.1 <0.6.0',
+360 silly cache add   type: 'range' }
+361 silly addNamed gulp-shell@>=0.5.1 <0.6.0
+362 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for gulp-shell
+363 silly addNameRange { name: 'gulp-shell', range: '>=0.5.1 <0.6.0', hasData: false }
+364 silly mapToRegistry name gulp-shell
+365 silly mapToRegistry using default registry
+366 silly mapToRegistry registry https://registry.npmjs.org/
+367 silly mapToRegistry data Result {
+367 silly mapToRegistry   raw: 'gulp-shell',
+367 silly mapToRegistry   scope: null,
+367 silly mapToRegistry   escapedName: 'gulp-shell',
+367 silly mapToRegistry   name: 'gulp-shell',
+367 silly mapToRegistry   rawSpec: '',
+367 silly mapToRegistry   spec: 'latest',
+367 silly mapToRegistry   type: 'tag' }
+368 silly mapToRegistry uri https://registry.npmjs.org/gulp-shell
+369 verbose addNameRange registry:https://registry.npmjs.org/gulp-shell not in flight; fetching
+370 silly cache afterAdd del@2.2.2
+371 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\del\2.2.2\package\package.json not in flight; writing
+372 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+373 silly cache afterAdd gulp-if@2.0.2
+374 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-if\2.0.2\package\package.json not in flight; writing
+375 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+376 silly cache afterAdd glob@5.0.15
+377 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\glob\5.0.15\package\package.json not in flight; writing
+378 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+379 silly cache afterAdd gulp-crisper@0.0.7
+380 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-crisper\0.0.7\package\package.json not in flight; writing
+381 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+382 silly resolveWithNewModule gulp-useref@3.1.5 checking installable status
+383 silly cache add args [ 'gulp-useref@^3.0.0', null ]
+384 verbose cache add spec gulp-useref@^3.0.0
+385 silly cache add parsed spec Result {
+385 silly cache add   raw: 'gulp-useref@^3.0.0',
+385 silly cache add   scope: null,
+385 silly cache add   escapedName: 'gulp-useref',
+385 silly cache add   name: 'gulp-useref',
+385 silly cache add   rawSpec: '^3.0.0',
+385 silly cache add   spec: '>=3.0.0 <4.0.0',
+385 silly cache add   type: 'range' }
+386 silly addNamed gulp-useref@>=3.0.0 <4.0.0
+387 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for gulp-useref
+388 silly addNameRange { name: 'gulp-useref', range: '>=3.0.0 <4.0.0', hasData: false }
+389 silly mapToRegistry name gulp-useref
+390 silly mapToRegistry using default registry
+391 silly mapToRegistry registry https://registry.npmjs.org/
+392 silly mapToRegistry data Result {
+392 silly mapToRegistry   raw: 'gulp-useref',
+392 silly mapToRegistry   scope: null,
+392 silly mapToRegistry   escapedName: 'gulp-useref',
+392 silly mapToRegistry   name: 'gulp-useref',
+392 silly mapToRegistry   rawSpec: '',
+392 silly mapToRegistry   spec: 'latest',
+392 silly mapToRegistry   type: 'tag' }
+393 silly mapToRegistry uri https://registry.npmjs.org/gulp-useref
+394 verbose addNameRange registry:https://registry.npmjs.org/gulp-useref not in flight; fetching
+395 silly cache afterAdd gulp@3.9.1
+396 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+397 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+398 verbose get https://registry.npmjs.org/http2-push-manifest not expired, no request
+399 silly resolveWithNewModule merge-stream@1.0.1 checking installable status
+400 silly cache add args [ 'merge-stream@^1.0.0', null ]
+401 verbose cache add spec merge-stream@^1.0.0
+402 silly cache add parsed spec Result {
+402 silly cache add   raw: 'merge-stream@^1.0.0',
+402 silly cache add   scope: null,
+402 silly cache add   escapedName: 'merge-stream',
+402 silly cache add   name: 'merge-stream',
+402 silly cache add   rawSpec: '^1.0.0',
+402 silly cache add   spec: '>=1.0.0 <2.0.0',
+402 silly cache add   type: 'range' }
+403 silly addNamed merge-stream@>=1.0.0 <2.0.0
+404 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for merge-stream
+405 silly addNameRange { name: 'merge-stream', range: '>=1.0.0 <2.0.0', hasData: false }
+406 silly mapToRegistry name merge-stream
+407 silly mapToRegistry using default registry
+408 silly mapToRegistry registry https://registry.npmjs.org/
+409 silly mapToRegistry data Result {
+409 silly mapToRegistry   raw: 'merge-stream',
+409 silly mapToRegistry   scope: null,
+409 silly mapToRegistry   escapedName: 'merge-stream',
+409 silly mapToRegistry   name: 'merge-stream',
+409 silly mapToRegistry   rawSpec: '',
+409 silly mapToRegistry   spec: 'latest',
+409 silly mapToRegistry   type: 'tag' }
+410 silly mapToRegistry uri https://registry.npmjs.org/merge-stream
+411 verbose addNameRange registry:https://registry.npmjs.org/merge-stream not in flight; fetching
+412 verbose get https://registry.npmjs.org/gulp-vulcanize not expired, no request
+413 silly addNameRange number 2 { name: 'gulp-vulcanize',
+413 silly addNameRange   range: '>=6.0.1 <7.0.0',
+413 silly addNameRange   hasData: true }
+414 silly addNameRange versions [ 'gulp-vulcanize',
+414 silly addNameRange   [ '0.1.0',
+414 silly addNameRange     '0.1.1',
+414 silly addNameRange     '0.2.0',
+414 silly addNameRange     '0.2.1',
+414 silly addNameRange     '1.0.0',
+414 silly addNameRange     '1.1.0',
+414 silly addNameRange     '2.0.0',
+414 silly addNameRange     '3.0.0',
+414 silly addNameRange     '3.1.0',
+414 silly addNameRange     '4.0.0',
+414 silly addNameRange     '5.0.0',
+414 silly addNameRange     '6.0.0',
+414 silly addNameRange     '6.0.1',
+414 silly addNameRange     '6.1.0',
+414 silly addNameRange     '7.0.0' ] ]
+415 silly addNamed gulp-vulcanize@6.1.0
+416 verbose addNamed "6.1.0" is a plain semver version for gulp-vulcanize
+417 verbose get https://registry.npmjs.org/gulp-uglify not expired, no request
+418 silly addNameRange number 2 { name: 'gulp-uglify', range: '>=1.4.2 <2.0.0', hasData: true }
+419 silly addNameRange versions [ 'gulp-uglify',
+419 silly addNameRange   [ '0.0.1',
+419 silly addNameRange     '0.0.3',
+419 silly addNameRange     '0.0.4',
+419 silly addNameRange     '0.1.0',
+419 silly addNameRange     '0.2.0',
+419 silly addNameRange     '0.2.1',
+419 silly addNameRange     '0.3.0',
+419 silly addNameRange     '0.3.1',
+419 silly addNameRange     '0.3.2',
+419 silly addNameRange     '1.0.0-0',
+419 silly addNameRange     '1.0.0',
+419 silly addNameRange     '1.0.1',
+419 silly addNameRange     '1.0.2',
+419 silly addNameRange     '1.1.0',
+419 silly addNameRange     '1.2.0',
+419 silly addNameRange     '1.3.0',
+419 silly addNameRange     '1.4.0',
+419 silly addNameRange     '1.4.1',
+419 silly addNameRange     '1.4.2',
+419 silly addNameRange     '1.5.1',
+419 silly addNameRange     '1.5.2',
+419 silly addNameRange     '1.5.3',
+419 silly addNameRange     '1.5.4',
+419 silly addNameRange     '2.0.0',
+419 silly addNameRange     '2.0.1',
+419 silly addNameRange     '2.1.0',
+419 silly addNameRange     '2.1.1',
+419 silly addNameRange     '2.1.2',
+419 silly addNameRange     '3.0.0',
+419 silly addNameRange     '3.0.1' ] ]
+420 silly addNamed gulp-uglify@1.5.4
+421 verbose addNamed "1.5.4" is a plain semver version for gulp-uglify
+422 verbose get https://registry.npmjs.org/gulp-shell not expired, no request
+423 silly addNameRange number 2 { name: 'gulp-shell', range: '>=0.5.1 <0.6.0', hasData: true }
+424 silly addNameRange versions [ 'gulp-shell',
+424 silly addNameRange   [ '0.1.0',
+424 silly addNameRange     '0.2.0',
+424 silly addNameRange     '0.2.1',
+424 silly addNameRange     '0.2.2',
+424 silly addNameRange     '0.2.3',
+424 silly addNameRange     '0.2.4',
+424 silly addNameRange     '0.2.5',
+424 silly addNameRange     '0.2.7',
+424 silly addNameRange     '0.2.8',
+424 silly addNameRange     '0.2.9',
+424 silly addNameRange     '0.2.10',
+424 silly addNameRange     '0.2.11',
+424 silly addNameRange     '0.3.0',
+424 silly addNameRange     '0.4.0',
+424 silly addNameRange     '0.4.1',
+424 silly addNameRange     '0.4.2',
+424 silly addNameRange     '0.4.3',
+424 silly addNameRange     '0.5.0',
+424 silly addNameRange     '0.5.1',
+424 silly addNameRange     '0.5.2',
+424 silly addNameRange     '0.6.0',
+424 silly addNameRange     '0.6.1',
+424 silly addNameRange     '0.6.2',
+424 silly addNameRange     '0.6.3',
+424 silly addNameRange     '0.6.4',
+424 silly addNameRange     '0.6.5' ] ]
+425 silly addNamed gulp-shell@0.5.2
+426 verbose addNamed "0.5.2" is a plain semver version for gulp-shell
+427 verbose get https://registry.npmjs.org/gulp-useref not expired, no request
+428 silly addNameRange number 2 { name: 'gulp-useref', range: '>=3.0.0 <4.0.0', hasData: true }
+429 silly addNameRange versions [ 'gulp-useref',
+429 silly addNameRange   [ '0.1.0',
+429 silly addNameRange     '0.1.1',
+429 silly addNameRange     '0.1.2',
+429 silly addNameRange     '0.2.0',
+429 silly addNameRange     '0.2.1',
+429 silly addNameRange     '0.2.2',
+429 silly addNameRange     '0.3.0',
+429 silly addNameRange     '0.3.1',
+429 silly addNameRange     '0.4.0',
+429 silly addNameRange     '0.4.1',
+429 silly addNameRange     '0.4.2',
+429 silly addNameRange     '0.4.3',
+429 silly addNameRange     '0.4.4',
+429 silly addNameRange     '0.4.5',
+429 silly addNameRange     '0.5.0',
+429 silly addNameRange     '0.6.0',
+429 silly addNameRange     '1.0.0',
+429 silly addNameRange     '1.0.1',
+429 silly addNameRange     '1.0.2',
+429 silly addNameRange     '1.1.0',
+429 silly addNameRange     '1.1.1',
+429 silly addNameRange     '1.1.2',
+429 silly addNameRange     '1.2.0',
+429 silly addNameRange     '1.3.0',
+429 silly addNameRange     '2.0.0',
+429 silly addNameRange     '2.0.1',
+429 silly addNameRange     '2.1.0',
+429 silly addNameRange     '3.0.0',
+429 silly addNameRange     '3.0.1',
+429 silly addNameRange     '3.0.2',
+429 silly addNameRange     '3.0.3',
+429 silly addNameRange     '3.0.4',
+429 silly addNameRange     '3.0.5',
+429 silly addNameRange     '3.0.6',
+429 silly addNameRange     '3.0.7',
+429 silly addNameRange     '3.0.8',
+429 silly addNameRange     '3.1.0',
+429 silly addNameRange     '3.1.1',
+429 silly addNameRange     '3.1.2',
+429 silly addNameRange     '3.1.3',
+429 silly addNameRange     '3.1.4',
+429 silly addNameRange     '3.1.5' ] ]
+430 silly addNamed gulp-useref@3.1.5
+431 verbose addNamed "3.1.5" is a plain semver version for gulp-useref
+432 verbose get https://registry.npmjs.org/merge-stream not expired, no request
+433 silly addNameRange number 2 { name: 'merge-stream', range: '>=1.0.0 <2.0.0', hasData: true }
+434 silly addNameRange versions [ 'merge-stream',
+434 silly addNameRange   [ '0.0.0',
+434 silly addNameRange     '0.0.1',
+434 silly addNameRange     '0.1.1',
+434 silly addNameRange     '0.1.2',
+434 silly addNameRange     '0.1.3',
+434 silly addNameRange     '0.1.4',
+434 silly addNameRange     '0.1.5',
+434 silly addNameRange     '0.1.6',
+434 silly addNameRange     '0.1.7',
+434 silly addNameRange     '0.1.8',
+434 silly addNameRange     '1.0.0',
+434 silly addNameRange     '1.0.1' ] ]
+435 silly addNamed merge-stream@1.0.1
+436 verbose addNamed "1.0.1" is a plain semver version for merge-stream
+437 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\glob\5.0.15\package\package.json written
+438 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\del\2.2.2\package\package.json written
+439 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-if\2.0.2\package\package.json written
+440 silly cache afterAdd gulp-vulcanize@6.1.0
+441 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-vulcanize\6.1.0\package\package.json not in flight; writing
+442 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+443 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-crisper\0.0.7\package\package.json written
+444 silly cache afterAdd http2-push-manifest@0.0.2
+445 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\http2-push-manifest\0.0.2\package\package.json not in flight; writing
+446 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+447 silly cache afterAdd gulp-uglify@1.5.4
+448 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-uglify\1.5.4\package\package.json not in flight; writing
+449 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+450 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+451 silly cache afterAdd gulp-shell@0.5.2
+452 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-shell\0.5.2\package\package.json not in flight; writing
+453 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+454 silly cache afterAdd gulp-useref@3.1.5
+455 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-useref\3.1.5\package\package.json not in flight; writing
+456 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+457 silly cache afterAdd merge-stream@1.0.1
+458 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\merge-stream\1.0.1\package\package.json not in flight; writing
+459 verbose correctMkdir C:\Users\Z\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+460 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-vulcanize\6.1.0\package\package.json written
+461 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\http2-push-manifest\0.0.2\package\package.json written
+462 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-uglify\1.5.4\package\package.json written
+463 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-shell\0.5.2\package\package.json written
+464 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\gulp-useref\3.1.5\package\package.json written
+465 verbose afterAdd C:\Users\Z\AppData\Roaming\npm-cache\merge-stream\1.0.1\package\package.json written
+466 info git [ 'clone',
+466 info git   '--template=C:\\Users\\Z\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+466 info git   '--mirror',
+466 info git   'ssh://git@github.com/PolymerLabs/web-component-shards.git',
+466 info git   'C:\\Users\\Z\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1' ]
+467 error git clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1: Cloning into bare repository 'C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1'...
+467 error git clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1: Host key verification failed.
+467 error git clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1: fatal: Could not read from remote repository.
+467 error git clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1:
+467 error git clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1: Please make sure you have the correct access rights
+467 error git clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1: and the repository exists.
+468 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1
+468 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1'...
+468 silly fetchPackageMetaData Host key verification failed.
+468 silly fetchPackageMetaData fatal: Could not read from remote repository.
+468 silly fetchPackageMetaData
+468 silly fetchPackageMetaData Please make sure you have the correct access rights
+468 silly fetchPackageMetaData and the repository exists.
+468 silly fetchPackageMetaData
+468 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+468 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+468 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+468 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+468 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+468 silly fetchPackageMetaData  error for web-component-shards@git+ssh://git@github.com/PolymerLabs/web-component-shards.git#workDir { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1
+468 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1'...
+468 silly fetchPackageMetaData Host key verification failed.
+468 silly fetchPackageMetaData fatal: Could not read from remote repository.
+468 silly fetchPackageMetaData
+468 silly fetchPackageMetaData Please make sure you have the correct access rights
+468 silly fetchPackageMetaData and the repository exists.
+468 silly fetchPackageMetaData
+468 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:198:12)
+468 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+468 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+468 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+468 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+468 silly fetchPackageMetaData   killed: false,
+468 silly fetchPackageMetaData   code: 128,
+468 silly fetchPackageMetaData   signal: null,
+468 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\Z\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\\Users\\Z\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1' }
+469 silly rollbackFailedOptional Starting
+470 silly rollbackFailedOptional Finishing
+471 silly runTopLevelLifecycles Finishing
+472 silly install printInstalled
+473 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1
+473 verbose stack Cloning into bare repository 'C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1'...
+473 verbose stack Host key verification failed.
+473 verbose stack fatal: Could not read from remote repository.
+473 verbose stack
+473 verbose stack Please make sure you have the correct access rights
+473 verbose stack and the repository exists.
+473 verbose stack
+473 verbose stack     at ChildProcess.exithandler (child_process.js:198:12)
+473 verbose stack     at emitTwo (events.js:106:13)
+473 verbose stack     at ChildProcess.emit (events.js:191:7)
+473 verbose stack     at maybeClose (internal/child_process.js:920:16)
+473 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+474 verbose cwd C:\MERGE\zuperkulblog-progressive-master
+475 error Windows_NT 6.1.7601
+476 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+477 error node v6.11.3
+478 error npm  v3.10.10
+479 error code 128
+480 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@github.com/PolymerLabs/web-component-shards.git C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1
+480 error Cloning into bare repository 'C:\Users\Z\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-github-com-PolymerLabs-web-component-shards-git-workDir-8e63fbc1'...
+480 error Host key verification failed.
+480 error fatal: Could not read from remote repository.
+480 error
+480 error Please make sure you have the correct access rights
+480 error and the repository exists.
+481 error If you need help, you may report this error at:
+481 error     <https://github.com/npm/npm/issues>
+482 verbose exit [ 1, true ]
